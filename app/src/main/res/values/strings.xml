@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AHOKU</string>
+    <string name="query_hint">Please enter your query</string>
+    <string name="result_topintent">TopIntent: %1$s</string>
+    <string name="result_text">Text: %1$s</string>
+</resources>
