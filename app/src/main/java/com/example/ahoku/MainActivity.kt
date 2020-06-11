@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
                     val entities = prediction.getJSONObject("entities")
 
                     resultTopIntent.text = str(R.string.result_topintent, topIntent)
+                    resultText.text = str(R.string.result_text, "None")
                     if (entities.has("Web.SearchText")) {
                         val text = entities.getJSONArray("Web.SearchText")
                         resultText.text = str(R.string.result_text, text.join(","))
